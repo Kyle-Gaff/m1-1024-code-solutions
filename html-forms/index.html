@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="index.html" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="option">Why is coding cool?:</label>
+      <select name="option" id="option">
+        <option value="Y1">Select an option</option>
+        <option value="Y2">Because it's interesting</option>
+        <option value="Y3">Because it's fun</option>
+        <option value="Y4">Because it's powerful</option>
+      </select>
+      <fieldset>
+        <legend>Favorite Coding Language (choose one)</legend>
+        <label
+          ><input type="radio" name="language" value="languages" />HTML</label
+        >
+        <label
+          ><input type="radio" name="language" value="languages" />CSS</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="language"
+            value="languages" />JavaScript</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Would you like to sign up for more information?</legend>
+        <label
+          ><input type="checkbox" name="info" value="info" />Sign me up!</label
+        >
+      </fieldset>
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
