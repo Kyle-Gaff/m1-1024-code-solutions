@@ -73,7 +73,7 @@ const pokedex: Pokemon[] = [
 
 function renderPokemon(pokemon: Pokemon): HTMLDivElement {
   const $columnThird = document.createElement('div');
-  $columnThird.setAttribute('class', 'column-Third');
+  $columnThird.setAttribute('class', 'column-third');
 
   const $pokemonCard = document.createElement('div');
   $pokemonCard.setAttribute('class', 'pokemon-card');
