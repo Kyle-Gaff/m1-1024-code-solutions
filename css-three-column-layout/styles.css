@@ -1,0 +1,40 @@
+.container {
+  align-items: baseline;
+  background-color: rgb(31, 142, 238);
+  height: 600px;
+  width: 800px;
+}
+
+.row {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.c-full {
+  flex-basis: 100%;
+}
+
+.c-third {
+  flex-basis: calc(100% / 3);
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+.img {
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.png {
+  width: 100px;
+  height: 100px;
+}
